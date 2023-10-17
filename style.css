@@ -113,33 +113,3 @@ body{
 .form-control{
   background-color: #DCEDC2;
 }
-
-
-@media screen and (max-width: 480px){
-  table{
-    border-collapse: collapse;
-    width: 100%;
-    margin: 20px 0;
-  }
-
-  table thead{
-    display: none;
-  }
-  tr{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-  }
-
-  td {
-    padding-top: 35px;
-    position: relative;
-    width: 100%;
-  }
-  .table_section{
-    order: -1;
-    margin-bottom: 10px;
-  }
-
-}
